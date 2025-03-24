@@ -1,15 +1,16 @@
-# DAJANIII - AI Portfolio Assistant
+# DAJANIII v3 - Portfolio Manager + AI Assistant
 
-## Features
-- Upload and parse PDF/CSV portfolios (IB + Schwab)
-- Compare stocks using live charts (price or % change)
-- Real-time stock lookup with fundamentals, chart, and news
-- AI-powered chat via OpenRouter
+## Key Features
+- Upload & parse Schwab + IB PDF portfolios
+- Extract multiple accounts (Living Trust, Corporate, IRA, etc.)
+- Save and switch between portfolios
+- Combined view and chart comparisons
+- Smart AI chat powered by OpenRouter that understands your holdings
 
-## Deployment (Streamlit Cloud)
+## To Deploy
 1. Upload to GitHub
-2. Go to https://streamlit.io/cloud → New App → point to `streamlit_app.py`
-3. Add secrets:
+2. Deploy on https://streamlit.io/cloud
+3. Set your OpenRouter API key in secrets:
 ```
 [openrouter]
 api_key = "your-api-key"
